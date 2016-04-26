@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Party">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1461673970878</CreatedAt>
+    <CreatedBy>arnnab.tripathy@tcs.com</CreatedBy>
+    <Description>Swagger test</Description>
+    <DisplayName>Party</DisplayName>
+    <LastModifiedAt>1461674170333</LastModifiedAt>
+    <LastModifiedBy>arnnab.tripathy@tcs.com</LastModifiedBy>
+    <Policies>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>apiKeyHeader</Policy>
+        <Policy>apiquota</Policy>
+        <Policy>cache</Policy>
+        <Policy>spikearrest</Policy>
+        <Policy>verifyAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

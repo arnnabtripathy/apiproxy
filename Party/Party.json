@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Swagger test",
+    "version": "1.0.0",
+    "title": "Party",
+    "contact": {
+      "email": "arnnab.tripathy@tcs.com"
+    }
+  },
+  "host": "arnnabtripathy-prod.apigee.net",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/v1/Party",
+  "paths": {
+    "/cust": {
+      "get": {
+        "operationId": "GET /cust",
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
+    "/cust/{custId}": {
+      "get": {
+        "operationId": "GET /cust/{custId}",
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        },
+        "parameters": [
+          {
+            "name": "custId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  }
+}
